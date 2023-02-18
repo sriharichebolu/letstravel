@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../travelblog/css/gallery.css">
+    <link rel="stylesheet" href="../travelblog/css/navbar.css">
+    <script src="../travelblog/javascript/gallery.js"defer></script>
+</head>
+<body onload="colo()">
+    <div id="a">
+        <h1 id="heading">Travelled Image gallery</h1>
+    </div>
+    <div id="bigscreen" class="fullscreenimg" style="display: none;" onclick="imgV()">
+        <img  id="fullimg" src="../travelblog/asset/images/a.jpg">
+        <h1 id="imgheading">Heading</h1>
+        <p id="imgparagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure at vero numquam animi quisquam? Aliquam beatae ipsam expedita sed voluptate!</p>
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+            <li class="li"><a href="../travelblog/html/index.html">Home</a></li>
+            <li class="li"id="sublistplace">places
+                <ul id="sublist">
+                    <li class="sli">India</li>
+                    <li class="sli">Dubia</li>
+                    <li class="sli">Srilanka</li>
+                    <li class="sli">thailand</li>
+                    <li class="sli">korea</li>
+                </ul>
+            </li>
+            <li class="li"><a href="../travelblog/html/aoutus.html">info</a></li>
+            <li class="li"><a href="../travelblog/html/loginpage.html">Logout</a></li>
+        </ul>
+    <!--from here body of the gallery starts-->
+    <div class="bodyofgallery">
+        <img src="../travelblog/asset/images/a.jpg" onclick="imgK(this.src,'elephant','elephant is looking very good to see between the nature ')">
+        <img src="../travelblog/asset/images/b.jpg" onclick="imgK(this.src,'owl','owl looking like a dangerous to see the owl')">
+        <img src="../travelblog/asset/images/c.jpg" onclick="imgK(this.src,'tiger ','tiger zindha hain in water and it is swimming')">
+        <img src="../travelblog/asset/images/d.jpg" onclick="imgK(this.src,'bird','bird eatig food on the tree y flying')">
+        <img src="../travelblog/asset/images/e.jpg" onclick="imgK(this.src,'cheeta','cheeta we can call it as a run manchine which is fast compare to others')">
+        <img src="../travelblog/asset/images/f.jpg" onclick="imgK(this.src,'flower','To look so attract who are seeing and also look beautiful')">
+        <img src="../travelblog/asset/images/g.jpg" onclick="imgK(this.src,'lion','The kig of jungle and donot depnds on others lives like a legend')">
+        <img src="../travelblog/asset/images/h.jpg" onclick="imgK(this.src,'Nature','nature is wonderfull gift given by god to us we can feel it and enjoy')">
+    </div>
+</body>
+</html>
